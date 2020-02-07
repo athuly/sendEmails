@@ -1,9 +1,9 @@
 # Send Auto Emails
 ## Send graded results to contact list
 
-STEP0. Goto https://myaccount.google.com/lesssecureapps ; signin to the gmail account from which emails will be sent and turn the Allow less secure apps switch to **ON**
+**STEP0.** Goto https://myaccount.google.com/lesssecureapps ; signin to the gmail account from which emails will be sent and turn the Allow less secure apps switch to **ON**
 
-**STEP1.** Save the `contacts.txt` file in the following format:
+**STEP1.** Save the `contacts.txt` file in the following format:<br/>
     - name,emailid
 
 **STEP2.** Modify the `message.txt` to edit the template.
