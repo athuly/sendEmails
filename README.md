@@ -8,11 +8,14 @@
 
 **STEP2.** Modify the `message.txt` to edit the template.
 
-**STEP3.** Place the homework folder in the same folder as the script. The homework folder structure should be
+**STEP3.** Place the homework folder in the same folder as the script. 
+
+The graded homework folder, which is output by `nbgrader` by default would be in the following format: 
   - <homework_folder_name>
     - student_name (should match the name in the contacts.txt)
       - graded_file1.html
       - graded_file2.html
+  (Hence no changes need to be made to the folder structure) 
 
 **STEP4.** Execute the Python script <br/>
 ```python sendEmails.py <sender_emailid> <sender_email_password> <homework_folder_name>```
