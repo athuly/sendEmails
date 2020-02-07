@@ -1,0 +1,9 @@
+Dear ${PERSON_NAME},
+
+Thank you for submitting your work w.r.t ${HOMEWORK} for MATH 167.
+You should find your graded work as an HTML attachment to this mail.
+If not, pls let me know; we will try to fix it ASAP.
+
+Yours Truly,
+
+Dr. Bremer

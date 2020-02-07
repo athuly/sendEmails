@@ -1,9 +1,6 @@
 # Send Auto Emails
 ## Send graded results to contact list
 
-# Send Auto Emails
-## Send graded results to contact list
-
 STEP0. Goto https://myaccount.google.com/lesssecureapps ; signin to the gmail account from which emails will be sent and turn the Allow less secure apps switch to **ON**
 
 **STEP1.** Save the `contacts.txt` file in the following format:
@@ -19,4 +16,3 @@ STEP0. Goto https://myaccount.google.com/lesssecureapps ; signin to the gmail ac
 
 **STEP4.** Execute the Python script <br/>
 ```python sendEmails.py <sender_emailid> <sender_email_password> <homework_folder_name>```
-
