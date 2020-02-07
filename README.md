@@ -15,7 +15,7 @@ The graded homework folder, which is output by `nbgrader` by default would be in
     - student_name (should match the name in the contacts.txt)
       - graded_file1.html
       - graded_file2.html
-  (Hence no changes need to be made to the folder structure) 
+  <br/>(Hence no changes need to be made to the folder structure) 
 
 **STEP4.** Execute the Python script <br/>
 ```python sendEmails.py <sender_emailid> <sender_email_password> <homework_folder_name>```
