@@ -68,7 +68,8 @@ def main():
         # For each contact, send the email:
         for name, email in zip(names, emails):
             msg = MIMEMultipart()       # create a message
-            first_name = email.replace("@sjsu.edu", "").split(".")[0]
+            index = email.index("@")
+            first_name = email[:index].split(".")[0]
             # add in the actual person name to the message template
             message = message_template.substitute(PERSON_NAME=first_name.title(), HOMEWORK = homework_id)
 
